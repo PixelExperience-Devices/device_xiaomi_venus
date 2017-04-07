@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     FrameworksResVenus \
     SettingsProviderOverlayVenus \
     SettingsResVenus \
-    SystemUIResVenus
+    SystemUIResVenus \
+    WifiResVenus
 
 # PowerShare
 PRODUCT_PACKAGES += \
