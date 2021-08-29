@@ -15,6 +15,9 @@ TARGET_BOOTLOADER_BOARD_NAME := venus
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/venus-qgki_defconfig
 
+# Kernel modules
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
+
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 114001162240
