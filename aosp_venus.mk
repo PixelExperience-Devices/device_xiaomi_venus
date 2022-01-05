@@ -13,6 +13,7 @@ $(call inherit-product, device/xiaomi/venus/device.mk)
 
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := venus
