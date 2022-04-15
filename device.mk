@@ -34,6 +34,10 @@ PRODUCT_PACKAGES += \
     SettingsResVenus \
     SystemUIResVenus
 
+# PowerShare
+PRODUCT_PACKAGES += \
+    vendor.lineage.powershare@1.0-service.xiaomi_sm8350
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
