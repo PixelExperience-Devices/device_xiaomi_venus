@@ -25,5 +25,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Rootdir
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.venus.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.venus.rc
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/venus/venus-vendor.mk)

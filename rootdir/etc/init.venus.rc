@@ -1,0 +1,8 @@
+#
+# Copyright (C) 2023 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on boot
+    setprop bluetooth.device.default_name "Mi 11"
