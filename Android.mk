@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),renoir)
+ifeq ($(TARGET_DEVICE),venus)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
