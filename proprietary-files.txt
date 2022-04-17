@@ -475,6 +475,12 @@ vendor/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service
 vendor/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc
 vendor/lib64/vendor.xiaomi.hardware.dtool@1.0.so
 
+# HotwordEnrollment - from venus_global V13.0.1.0.SKBMIXM
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|3a0089f1a2d5b5acca1cec8330db5c5f3d738f2a
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|5b6439d4ee66206fd4b1159294b363920fe39a82
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|c764b636e0be426a66be09dd08ab9c1921327ef0
+
 # NFC configs
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
