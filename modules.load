@@ -89,3 +89,4 @@ rmnet_ctl.ko
 rmnet_offload.ko
 rmnet_shs.ko
 sla.ko
+xiaomi_touch.ko
