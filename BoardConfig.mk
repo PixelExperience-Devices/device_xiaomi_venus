@@ -19,6 +19,7 @@ TARGET_SCREEN_DENSITY := 560
 TARGET_OTA_ASSERT_DEVICE := venus
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/venus
 TARGET_KERNEL_CONFIG := vendor/venus-qgki_defconfig
 
 # Kernel modules
