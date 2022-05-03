@@ -8,6 +8,14 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.10.pmd
+vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
+vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb
+vendor/etc/acdbdata/Tutu/Tutu_Global_cal.acdb
+vendor/etc/acdbdata/Tutu/Tutu_Handset_cal.acdb
+vendor/etc/acdbdata/Tutu/Tutu_Hdmi_cal.acdb
+vendor/etc/acdbdata/Tutu/Tutu_Headset_cal.acdb
+vendor/etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb
+vendor/etc/acdbdata/Tutu/Tutu_workspaceFile.qwsp
 
 # ACDB libraries
 vendor/lib/libacdb-fts.so
