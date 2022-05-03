@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "branch": "twelve"
+  },
+  {
+    "repository":  "kernel_xiaomi_venus",
+    "target_path": "kernel/xiaomi/venus",
+    "branch": "twelve"
+  },
+  {
+    "repository": "vendor_xiaomi_venus",
+    "target_path": "vendor/xiaomi/venus",
+    "branch": "twelve",
+    "remote": "pixel-devices-blobs"
+  }
+]
