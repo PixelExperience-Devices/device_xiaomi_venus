@@ -14,5 +14,11 @@
     "target_path": "vendor/xiaomi/venus",
     "branch": "twelve",
     "remote": "pixel-devices-blobs"
+  },
+  {
+    "repository": "vendor_xiaomi_venus-firmware",
+    "target_path": "vendor/xiaomi/venus-firmware",
+    "branch": "twelve",
+    "remote": "pixel-devices-blobs"
   }
 ]
