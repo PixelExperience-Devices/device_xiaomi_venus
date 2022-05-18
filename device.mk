@@ -58,4 +58,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/st_fts_k2_htp.ftb:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/st_fts_k2_htp.ftb
 
 # Call the proprietary setup
-$(call inherit-product-if-exists, vendor/xiaomi/venus/venus-vendor.mk)
+$(call inherit-product, vendor/xiaomi/venus/venus-vendor.mk)
