@@ -694,3 +694,6 @@ vendor/firmware/st_fts_k2_htp.ftb
 
 # Vibrator firmware
 vendor/firmware/aw8697_haptic.bin
+
+# Qualcomm diag service
+-vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
