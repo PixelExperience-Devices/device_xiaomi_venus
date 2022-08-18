@@ -38,6 +38,9 @@ BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 114001162240
 
+# Recovery
+TARGET_RECOVERY_UI_MARGIN_HEIGHT := 165
+
 # Include proprietary files
 -include vendor/xiaomi/venus/BoardConfigVendor.mk
 -include vendor/xiaomi/venus-firmware/BoardConfigVendor.mk
