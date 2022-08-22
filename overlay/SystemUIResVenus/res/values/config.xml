@@ -45,4 +45,8 @@
 
     <!-- Location on the screen of the center of the fingerprint sensor. -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">2490px</dimen>
+
+    <!-- Preferred refresh rate at keyguard, if supported by the display. Overrides
+         keyguardMaxRefreshRate. -->
+    <integer name="config_keyguardRefreshRate">120</integer>
 </resources>
