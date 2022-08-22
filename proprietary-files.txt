@@ -1,4 +1,4 @@
-# Device proprietary files - from venus MIUI China Stable V13.0.8.0.SKBCNXM
+# Device proprietary files - from venus MIUI China Stable V13.0.9.0.SKBCNXM
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
