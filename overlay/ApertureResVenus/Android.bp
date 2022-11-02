@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "ApertureResVenus",
+    theme: "ApertureResVenus",
+    product_specific: true,
+}
