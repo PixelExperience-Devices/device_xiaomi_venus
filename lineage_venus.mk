@@ -22,8 +22,13 @@ PRODUCT_NAME := lineage_venus
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+PRODUCT_SYSTEM_NAME := venus_global
+PRODUCT_SYSTEM_DEVICE := venus
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="venus_global-user 13 SKQ1.211006.001 V14.0.8.0.TKBMIXM release-keys"
+    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Xiaomi/venus_global/venus:13/SKQ1.211006.001/V14.0.8.0.TKBMIXM:user/release-keys
