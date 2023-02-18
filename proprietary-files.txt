@@ -730,6 +730,8 @@ vendor/etc/thermald-devices.conf
 # Touchscreen firmware
 vendor/firmware/st_fts_k2.ftb
 vendor/firmware/st_fts_k2_htp.ftb
+vendor/firmware/st_fts_k2.ftb:vendor_ramdisk/lib/firmware/st_fts_k2.ftb
+vendor/firmware/st_fts_k2_htp.ftb:vendor_ramdisk/lib/firmware/st_fts_k2_htp.ftb
 
 # Vibrator firmware
 vendor/firmware/aw8697_haptic.bin
