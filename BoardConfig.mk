@@ -15,6 +15,9 @@ TARGET_BOOTLOADER_BOARD_NAME := venus
 # Display
 TARGET_SCREEN_DENSITY := 560
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/venus_QGKI.config
 
