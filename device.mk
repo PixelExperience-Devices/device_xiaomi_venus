@@ -23,7 +23,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    sensors.xiaomi
+    sensors.xiaomi.venus
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
