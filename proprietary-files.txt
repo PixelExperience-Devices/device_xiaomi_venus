@@ -1,4 +1,5 @@
 # All unpinned blobs below are extracted from venus-user 13 SKQ1.211006.001 V14.0.8.0.TKBCNXM release-keys
+# MIUI 13 from venus-user 12 RKQ1.211001.001 V13.0.6.0.SKBMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -532,12 +533,12 @@ vendor/etc/mdss_dsi_k2_38_08_0a_dsc_cmd_mi.xml
 vendor/etc/mdss_dsi_k2_38_08_0a_mp_dsc_cmd_mi.xml
 vendor/etc/mdss_dsi_k2b_38_08_0a_dsc_cmd_mi.xml
 
-# Fingerprint
--vendor/etc/vintf/manifest/fod.xml
-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.lahaina.so
-vendor/lib64/com.fingerprints.extension@3.0.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
+# Fingerprint - from MIUI 13
+-vendor/etc/vintf/manifest/fod.xml|0787f763410fce0aae90a3afd807e9fdb2e6ccc4
+vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.lahaina.so|ff22a59c5dd58b83b0faaac74255d2cba7ebab11
+vendor/lib64/com.fingerprints.extension@3.0.so|9e9bf48b9dff08f500734027f7bb5e382df69fef
+vendor/lib64/libgf_hal.so|84e9eda18070c6bbfbfc87cc1ac5be2e28a4012e
+vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so|ab271b272f9cf53ca65ab1e457d5cd8ddebc87f7
 
 # Fingerprint dtool
 vendor/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service
