@@ -426,7 +426,32 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
     -->
     <string name="config_mainBuiltInDisplayCutout">
-        M 0,0 H 232 V 137 H 0 V 0 Z @left
+	M 127,98
+	a 38,38 0 1 0 77,0
+	a 38,38 0 1 0 -77,0
+	Z
+	@left
+    </string>
+
+    <!-- Whether the display cutout region of the main built-in display should be forced to
+         black in software (to avoid aliasing or emulate a cutout that is not physically existent).
+    -->
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+
+    <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
+         one single bounding rect per device edge to the app via
+         {@link DisplayCutout#getBoundingRect}. Note that this path should try to match the visual
+         appearance of the cutout as much as possible, and may be smaller than
+         config_mainBuiltInDisplayCutout
+         -->
+    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
+	M 0.0,0.0
+	h 208
+	v 137
+	h 0
+        v 0
+	Z
+	@left
     </string>
 
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
